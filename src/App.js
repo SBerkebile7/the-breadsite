@@ -1,25 +1,25 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
-import Home from './components/Home';
+
+import Navbar from './components';
+import Home from './components';
 
 function App() {
   return (
-    <Routes>
-      <Navbar></Navbar>
-      <Switch>
-        <Route exact path ="/" component = {Home} />
-      </Switch>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path ="/" component = {<Home />} />
+      </Routes>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
             hello
           </p>
         </header>
       </div>
-    </Routes>
+    </Router>
   );
 }
 

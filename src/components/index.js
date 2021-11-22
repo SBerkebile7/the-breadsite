@@ -12,22 +12,17 @@ function Navbar() {
                             <ul class="dropdown menu">
                                 <li>
                                     <Link to="/" className="text-decoration-none">
-                                        About me                
+                                        Home                
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/portfolio" className="text-decoration-none">
-                                        Portfolio
+                                        Posts
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/contact" className="text-decoration-none">
                                         Contact
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/resume" className="text-decoration-none">
-                                        Resume
                                     </Link>
                                 </li>
                             </ul>
