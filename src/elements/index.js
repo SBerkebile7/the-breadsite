@@ -7,7 +7,6 @@ function Navbar() {
             <header id="header">
                 <div class="container-fluid">
                     <div class="col-md-12">
-                        <button id="primary-nav-button" type="button">Menu</button>
                         <nav id="primary-nav" class="dropdown cf">
                             <ul class="dropdown menu">
                                 <li>
