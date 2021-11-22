@@ -16,7 +16,7 @@ function Navbar() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/portfolio" className="text-decoration-none">
+                                    <Link to="/posts" className="text-decoration-none">
                                         Posts
                                     </Link>
                                 </li>
