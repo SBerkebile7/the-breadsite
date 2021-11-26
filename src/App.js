@@ -5,8 +5,9 @@ import './assets/css/bootstrap-theme.min.css';
 import './assets/css/fontAwesome.css';
 import './assets/css/tooplate-style.css';
 
-import Navbar from './elements';
+import Navbar from './elements/Navbar';
 import Home from './elements/Home';
+import Contact from './elements/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path ="/" element = {<Home />} />
+        <Route exact path ="/contact" element = {<Contact />} />
       </Routes>
       
     </Router>
