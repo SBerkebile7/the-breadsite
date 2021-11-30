@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FORM_ENDPOINT = "https://public.herotofu.com/v1/f8e682c0-4261-11ec-ac2c-7b06ec3fa335";
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/acc2c940-520a-11ec-85ac-d56a41b9ab46";
 
 require('dotenv').config();
 
@@ -30,38 +30,38 @@ function ContactForm() {
 
     return (
         <div>
-            <div class="heading-page">
+            <div >
                 <div class="container">
-                    <div class="col-md-12">
+                    <div >
                         <h2>Contact Me</h2>
                         <div class="line-dec"></div>
                     </div>
                 </div>
             </div>
             
-            <div class="contact-form">
-                <div class="container-fluid">
-                    <div class="col-md-4">
-                        <div class="text-content">
-                            <div class="inside-content">
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
                                 <h4>Let's get into contact! Fill out the form to the reach out to me about any inquiries or ideas you may have.</h4>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8">
-                        <div class="right-content">
+                    <div>
+                        <div>
                             <div id="contact">
                             <form action={FORM_ENDPOINT} method="POST" onSubmit={handleSubmit} target="_blank">
-                                <div class="col-md-4 col-md-offset-2">
+                                <div>
                                     <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required />
                                 </div>
-                                <div class="col-md-4">
+                                <div>
                                     <input name="email" type="email" class="form-control" id="email" placeholder="Email..." required />
                                 </div>
-                                <div class="col-md-8 col-md-offset-2">
+                                <div>
                                     <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required ></textarea>
                                 </div>
-                                <div class="col-md-8 col-md-offset-2">
+                                <div>
                                    <button type="submit" id="form-submit" class="btn">Send Message</button>
                                 </div> 
                                 {errorMessage && (

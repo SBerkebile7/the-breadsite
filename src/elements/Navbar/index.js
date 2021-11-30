@@ -6,21 +6,21 @@ function Navbar() {
         <div class="wrap">
             <header id="header">
                 <div class="container-fluid">
-                    <div class="col-md-12">
-                        <nav id="primary-nav" class="dropdown cf">
+                    <div>
+                        <nav id="primary-nav">
                             <ul class="dropdown menu">
                                 <li>
-                                    <Link to="/" className="text-decoration-none">
+                                    <Link to="/">
                                         Home                
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/posts" className="text-decoration-none">
+                                    <Link to="/posts">
                                         Posts
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact" className="text-decoration-none">
+                                    <Link to="/contact" >
                                         Contact
                                     </Link>
                                 </li>
