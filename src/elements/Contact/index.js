@@ -21,16 +21,16 @@ function ContactForm() {
 
     if (submitted) {
         return (
-          <>
-            <h2>Thank you!</h2>
-            <div>We'll be in touch soon.</div>
-          </>
+            <>
+                <h2>Thank you!</h2>
+                <div>We'll be in touch soon.</div>
+            </>
         );
-      }
+    }
 
     return (
         <div>
-            <div >
+            <div>
                 <div class="container">
                     <div>
                         <h2>Contact Me</h2>
