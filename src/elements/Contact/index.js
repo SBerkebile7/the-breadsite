@@ -32,15 +32,15 @@ function ContactForm() {
         <div>
             <div >
                 <div class="container">
-                    <div >
+                    <div>
                         <h2>Contact Me</h2>
                         <div class="line-dec"></div>
                     </div>
                 </div>
             </div>
             
-            <div>
-                <div>
+            <div >
+                <div class="container-fluid">
                     <div>
                         <div>
                             <div>
