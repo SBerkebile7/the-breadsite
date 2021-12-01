@@ -1,9 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './assets/css/bootstrap.min.css';
-import './assets/css/bootstrap-theme.min.css';
-import './assets/css/fontAwesome.css';
-import './assets/css/tooplate-style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from './elements/Navbar';
 import Home from './elements/Home';

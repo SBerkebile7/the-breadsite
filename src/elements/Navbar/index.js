@@ -6,27 +6,29 @@ function Navbar() {
         <div class="wrap">
             <header id="header">
                 <div class="container-fluid">
-                    <div>
-                        <nav id="primary-nav">
-                            <ul class="dropdown menu">
-                                <li>
-                                    <Link to="/">
-                                        Home                
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/posts">
-                                        Posts
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/contact" >
-                                        Contact
-                                    </Link>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                    <nav class="navbar navbar-expand-sm navbar-light bg-light" id="navbar" >
+                        <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+                            <div class="collapse navbar-collapse text-center">
+                                <ul class="navbar-nav ">
+                                    <li>
+                                        <Link to="/">
+                                            Home                
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/posts">
+                                            Posts
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/contact" >
+                                            Contact
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </header>
         </div>
