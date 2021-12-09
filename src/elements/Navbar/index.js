@@ -8,20 +8,20 @@ function Navbar() {
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-sm navbar-light bg-light" id="navbar" >
                         <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-                            <div class="collapse navbar-collapse text-center">
-                                <ul class="navbar-nav ">
-                                    <li>
-                                        <Link to="/">
+                            <div class="collapse navbar-collapse text-center" >
+                                <ul class="navbar-nav" >
+                                    <li class="mx-3">
+                                        <Link to="/" class="text-decoration-none">
                                             Home                
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link to="/posts">
+                                    <li class="mx-3">
+                                        <Link to="/posts" class="text-decoration-none">
                                             Posts
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link to="/contact" >
+                                    <li class="mx-3">
+                                        <Link to="/contact" class="text-decoration-none">
                                             Contact
                                         </Link>
                                     </li>
